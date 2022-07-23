@@ -10,8 +10,8 @@ Copyright (c) 1998-2022 Syncro Soft SRL, Romania.  All rights reserved.
   <!--
     XSLT extension point for the stylesheet used to produce an HTML file for each DITA topic. 
   -->
-  
+  <xsl:import xmlns:dita="http://dita-ot.sourceforge.net" href="plugin:com.oxygenxml.tabbed-codeblock:tabbed-codeblock.xsl"/>
   
   <!-- WH-1439 com.oxygenxml.webhelp.xsl.dita2webhelp extension point -->
-  <xsl:import xmlns:dita="http://dita-ot.sourceforge.net" href="template:xsl/com.oxygenxml.webhelp.xsl.dita2webhelp"/>
+  <xsl:import href="template:xsl/com.oxygenxml.webhelp.xsl.dita2webhelp"/>
 </xsl:stylesheet>
