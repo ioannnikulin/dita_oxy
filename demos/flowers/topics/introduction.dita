@@ -7,7 +7,33 @@
     <body>
         <p>With just a little bit of care and preparation, any flower garden can be a vibrantly
             colored environment. Flowers can be selected for specific blooming seasons, colors and
-            shapes. Both annual and <xref keyref="perennial" format="dita">perennial</xref>
-            flower gardens can be planted depending on climate and specific needs.</p>
+            shapes. Both annual and <xref keyref="perennial" format="dita">perennial</xref> flower
+            gardens can be planted depending on climate and specific needs.</p>
+        <p>
+            <imagemap id="imagemap_f3h_jnf_h5b">
+                <image href="../images/Mature_flower_diagram.svg" id="image_epj_5hf_h5b"
+                    align="center"/>
+                <area>
+                    <shape>poly</shape>
+                    <coords>580, 250, 563, 219, 671, 187, 684, 224, 657, 271, 604, 290</coords>
+                    <xref keyref="bulb" format="dita">BULB</xref>
+                </area>
+                <area>
+                    <shape>circle</shape>
+                    <coords>126, 75, 129</coords>
+                    <xref>GREEN</xref>
+                </area>
+                <area>
+                    <shape>circle</shape>
+                    <coords>366, 224, 185</coords>
+                    <xref keyref="genus" format="dita">CENTER</xref>
+                </area>
+                <area>
+                    <shape>circle</shape>
+                    <coords>612, 270, 131</coords>
+                    <xref keyref="cultivar" format="dita">RED</xref>
+                </area>
+            </imagemap>
+        </p>
     </body> 
 </topic>
