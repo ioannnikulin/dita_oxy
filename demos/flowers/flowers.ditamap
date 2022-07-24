@@ -8,6 +8,7 @@
         <data name="hide" value="yes"/>
       </data>
     </topicmeta>
+    <topicref href="langs.ditamap" format="ditamap" type="subjectScheme" navtitle="language_scheme"/>
   </topicref>
   <topicref href="topics/care.dita">
     <topicref href="tasks/pruning.dita"/>

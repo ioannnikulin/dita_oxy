@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "subjectScheme.dtd"> 
+<subjectScheme>
+    <subjectHead>
+        <subjectHeadMeta>
+            <navtitle>
+                <!-- Enter a description of the subject scheme. -->
+            </navtitle>
+        </subjectHeadMeta>
+    </subjectHead>
+    <hasInstance>
+        <subjectdef keys="my_language_key">
+            <!-- A tree of related values First level valueecond level value-->
+            <subjectdef keys="English">
+                <subjectdef keys="English-US"/>
+                <subjectdef keys="English-UK"/>
+            </subjectdef>
+            <subjectdef keys="Russian"/>
+        </subjectdef>
+    </hasInstance>
+    <enumerationdef>
+        <!-- Bind an attribute to a tree of related values -->
+        <attributedef name="outputclass"/>
+        <subjectdef keyref="my_language_key"/>
+    </enumerationdef>
+</subjectScheme>

@@ -23,6 +23,10 @@
         <entry key="php">Php</entry>
         <entry key="lua">Lua</entry>
         <entry key="go">Go</entry>
+        <entry key="Russian">Russian</entry>
+        <entry key="English">English</entry>
+        <entry key="English-UK">English (UK)</entry>
+        <entry key="English-US">English (US)</entry>
     </xsl:variable>
     
     <!-- Code blocks added to a figure -->
