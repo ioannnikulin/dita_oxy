@@ -8,15 +8,19 @@
             <parameter name="webhelp.show.main.page.tiles" value="yes"/>
             <parameter name="webhelp.show.main.page.toc" value="no"/>
             <parameter name="webhelp.top.menu.depth" value="3"/>
-            <parameter name="args.figurelink.style" value="TITLE"/>
-            <parameter name="args.tablelink.style" value="TITLE"/>
             <parameter name="force-unique" value="true"/>
+			<parameter name="webhelp.enable.template.js.module.loading" value="true"/>
         </parameters>
         <resources>
             <css file="oxygen.css"/>
             <css file="notes.css"/>
+            <css file="jquery/style.css"/>
+            <css file="jquery/jquery-ui.css"/>
+			<js-amd-module file="jquery/jquery-3.6.0.js"/>
+			<js-amd-module file="jquery/jquery-ui.js"/>
             <fileset>
                 <include name="resources/**/*"/>
+				<include name="jquery/*.js"/>
                 <exclude name="resources/**/*.svn"/>
                 <exclude name="resources/**/*.git"/>
             </fileset>
