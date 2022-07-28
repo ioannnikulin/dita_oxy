@@ -14,8 +14,10 @@
         <resources>
             <css file="oxygen.css"/>
             <css file="notes.css"/>
+			<js-amd-module file="js-modules/js/template-main.js"/>
             <fileset>
                 <include name="resources/**/*"/>
+				<include name="js-modules/js/*.js"/>
                 <exclude name="resources/**/*.svn"/>
                 <exclude name="resources/**/*.git"/>
             </fileset>
