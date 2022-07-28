@@ -1,0 +1,2 @@
+rmdir /s /q "C:\Program Files\Oxygen XML Author 24\frameworks\dita\DITA-OT3.x\plugins\com.oxygenxml.webhelp.responsive"
+mklink /D "C:\Program Files\Oxygen XML Author 24\frameworks\dita\DITA-OT3.x\plugins\com.oxygenxml.webhelp.responsive" "%~dp0\com.oxygenxml.webhelp.responsive"
