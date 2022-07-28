@@ -16,8 +16,7 @@
             <css file="notes.css"/>
             <css file="jquery/style.css"/>
             <css file="jquery/jquery-ui.css"/>
-			<js-amd-module file="jquery/jquery-3.6.0.js"/>
-			<js-amd-module file="jquery/jquery-ui.js"/>
+			<js-amd-module file="jquery/template-main.js"/>
             <fileset>
                 <include name="resources/**/*"/>
 				<include name="jquery/*.js"/>
