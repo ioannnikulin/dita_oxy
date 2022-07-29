@@ -1,2 +1,4 @@
-rmdir /s /q "C:\Program Files\Oxygen XML Author 24\frameworks\dita\DITA-OT3.x\plugins\com.oxygenxml.webhelp.responsive"
-mklink /D "C:\Program Files\Oxygen XML Author 24\frameworks\dita\DITA-OT3.x\plugins\com.oxygenxml.webhelp.responsive" "%~dp0\com.oxygenxml.webhelp.responsive"
+FOR %%x in (com.oxygenxml.common com.oxygenxml.highlight com.oxygenxml.media com.oxygenxml.webhelp.common com.oxygenxml.webhelp.responsive) DO (
+rmdir /s /q "C:\Program Files\Oxygen XML Editor 24\frameworks\dita\DITA-OT3.x\plugins\%%x"
+mklink /D "C:\Program Files\Oxygen XML Editor 24\frameworks\dita\DITA-OT3.x\plugins\%%x" "%~dp0webhelp\%%x"
+)
