@@ -19,6 +19,7 @@
 			<js-amd-module file="jquery/template-main.js"/>
             <fileset>
                 <include name="resources/**/*"/>
+				<include name="jquery/template-main.js"/>
 				<include name="jquery/tab-it.js"/>
                 <exclude name="resources/**/*.svn"/>
                 <exclude name="resources/**/*.git"/>
