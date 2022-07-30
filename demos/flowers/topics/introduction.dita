@@ -9,7 +9,7 @@
             colored environment. Flowers can be selected for specific blooming seasons, colors and
             shapes. Both annual and <xref keyref="perennial" format="dita">perennial</xref>
             flower gardens can be planted depending on climate and specific needs.</p>
-        <div id="tabs">
+        <div outputclass="tabs">
             <ul>
                 <li><div outputclass="#tabs-1">Nunc tincidunt</div></li>
                 <li><div outputclass="#tabs-2">Proin dolor</div></li>
