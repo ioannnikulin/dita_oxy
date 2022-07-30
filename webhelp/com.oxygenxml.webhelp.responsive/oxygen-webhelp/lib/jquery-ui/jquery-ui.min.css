@@ -6,6 +6,10 @@
 
 /* Layout helpers
 ----------------------------------*/
+.ui-draggable, .ui-droppable {
+	background-position: top;
+}
+
 .ui-helper-hidden {
 	display: none;
 }
