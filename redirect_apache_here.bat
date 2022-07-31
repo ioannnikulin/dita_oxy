@@ -1,0 +1,1 @@
+mklink /D "D:\xampp\htdocs\dita" "%~dp0demos\flowers\bare tabs without dita"
