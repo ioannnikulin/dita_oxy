@@ -8,15 +8,15 @@
   <link rel="stylesheet" href="style.css">
   <script src="jquery.js"></script>
   <script src="jquery-ui.js"></script>
-  <script src="jquery.cookie.js"></script>
+  <script src="cookies.js"></script>
   <script>
   $(document).ready(function() {
     var cookieName = 'stickyTab';
 
 	 $('#tabs').tabs({
-	  active: ($.cookie(cookieName) || 0),
+	  active: (Cookies.get(cookieName) || 0),
 	  beforeActivate: function(e, ui){
-	   $.cookie(cookieName, ui.newTab.index(), { expires : 365, path: "/;SameSite=Strict", secure: true});
+	   Cookies.set(cookieName, ui.newTab.index(), { expires : 365, sameSite: 'strict', secure: true});
 	  }
 	 });
 	});
