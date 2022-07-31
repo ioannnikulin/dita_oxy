@@ -68,9 +68,9 @@ define(function() {
          ********************************************************/
 
         // JQuery
-        "jquery" : "../lib/jquery/jquery-3.5.1.min",
+        "jquery" : "../lib/jquery/jquery-3.6.0",
         // JQuery UI
-        "jquery.ui" : "../lib/jquery-ui/jquery-ui.min",
+        "jquery.ui" : "../lib/jquery-ui/jquery-ui",
         // JQuery Highlight
         "jquery.highlight" : "../lib/jquery-highlight/jquery.highlight-3",
         // JQuery Image maps highlighter
